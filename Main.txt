@@ -31,6 +31,27 @@ CSS
     height:32px;
   }
 
+Layout
+    *main
+        contains:res, buttons
+    *res
+        icons:show
+        contains:Resources
+        class:fullWidth
+    *buttons
+        contains:Buttons
+    *store
+        contains:buildings, upgrades
+    *buildings
+        contains:BulkDisplay, Buildings
+        header:建筑
+        tooltip origin:left
+    *upgrades
+        contains:Upgrades
+        header:升级
+        costs:hide
+        names:hide
+
 Buttons
     *MakeSomeCopper
         name:挖点铜
