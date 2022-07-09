@@ -10,7 +10,8 @@ Settings
     background:https://img.itch.zone/aW1nLzIzOTg5MjMucG5n/original/GYqcmu.png
     building cost increase:110%
     building cost refund:80%
-    spritesheet:icon, 64 by 64, url.jpg
+    spritesheet:icon, 32 by 32, url.jpg
+    stylesheet:stuff/bigBlue.css
 
 CSS
   #game
@@ -26,8 +27,8 @@ CSS
   }
   .thing-icon,.particle
   {
-    width:64px;
-    height:64px;
+    width:32px;
+    height:32px;
   }
 
 Buttons
