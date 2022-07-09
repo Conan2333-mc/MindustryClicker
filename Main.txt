@@ -1,0 +1,26 @@
+Let's make a game!
+    name:你铜没了.jpeg
+    by:ConanMC2021
+    desc:一个Mindustry主题的挂机游戏（吗？）
+    created:08/07/2022
+    version:1.0.0
+
+Settings
+    background:https://img.itch.zone/aW1nLzIzOTg5MjMucG5n/original/GYqcmu.png
+    building cost increase:110%
+    building cost refund:80%
+    stylesheet:stuff/bigBlue.css
+    spritesheet:icon, 64 by 64, url.jpg
+
+Buttons
+    *MakeSomeCopper
+        name:挖点铜
+        desc:Mindustry中的基本资源。点击它来获得更多的铜！
+		on click:anim icon wobble
+		on click:yield 1 Copper
+		icon:stuff/bunny.png
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
