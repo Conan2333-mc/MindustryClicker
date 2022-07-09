@@ -83,7 +83,7 @@ Buildings
         desc:升级后的钻头，效率稍低。
         on tick:yield 0.75 Copper
         cost:10 Copper
-        icon:icon[0,1]
+        icon:icon[1,0]
 
 Upgrades
     *WaterInjectionBit
@@ -91,4 +91,4 @@ Upgrades
         desc:使机械钻头的挖掘速度以及点击的生产量翻倍。
         passive:multiply yield of MakeSomeCopper by 2
         cost:50 Copper
-        icon:icon[0,2]
+        icon:icon[2,0]
