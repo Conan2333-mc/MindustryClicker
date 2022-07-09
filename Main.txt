@@ -86,7 +86,7 @@ Buildings
         icon:icon[0,1]
 
 Upgrades
-    *drillBitIsFilledWithWater
+    *WaterInjectionBit
         name:注水钻头
         desc:使机械钻头的挖掘速度以及点击的生产量翻倍。
         passive:multiply yield of MakeSomeCopper by 2
