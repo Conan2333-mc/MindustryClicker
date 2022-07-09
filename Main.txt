@@ -37,7 +37,7 @@ Buttons
         desc:Mindustry中的基本资源。点击它来获得更多的铜！
 		on click:anim icon wobble
 		on click:yield 1 Copper
-		icon:stuff/bunny.png
+		icon:https://raw.githubusercontent.com/Conan2333-mc/MindustryClicker/main/copperButton.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -48,3 +48,4 @@ Resources
     *Copper
         name:铜
         desc:铜……？你应该拿它建点东西。
+        icon:https://raw.githubusercontent.com/Conan2333-mc/MindustryClicker/main/copper.png
