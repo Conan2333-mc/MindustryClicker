@@ -8,7 +8,7 @@ Let's make a game!
 Settings
     no particles
     background:https://img.itch.zone/aW1nLzIzOTg5MjMucG5n/original/GYqcmu.png
-    building cost increase:110%
+    building cost increase:150%
     building cost refund:80%
     spritesheet:icon, 32 by 32, https://raw.githubusercontent.com/Conan2333-mc/MindustryClicker/main/spritesheet.png
     stylesheet:stuff/bigBlue.css
@@ -75,6 +75,20 @@ Buildings
     *mechanicalDrill
         name:机械钻头
         desc:最初级的钻头，挖得很慢。
-        on tick:yield 1 Copper
+        on tick:yield 0.25 Copper
         cost:10 Copper
         icon:icon[0,0]
+    *pneumaticDrill
+        name:气动钻头
+        desc:升级后的钻头，效率稍低。
+        on tick:yield 0.75 Copper
+        cost:10 Copper
+        icon:icon[0,1]
+
+Upgrades
+    *drillBitIsFilledWithWater
+        name:注水钻头
+        desc:使机械钻头的挖掘速度以及点击的生产量翻倍。
+        passive:multiply yield of MakeSomeCopper by 2
+        cost:50 Copper
+        icon:icon[0,2]
