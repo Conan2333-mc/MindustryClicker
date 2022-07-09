@@ -3,14 +3,14 @@ Let's make a game!
     by:ConanMC2021
     desc:一个Mindustry主题的挂机游戏
     created:08/07/2022
-    version:1.0.0
+    version:11.45.14
 
 Settings
     no particles
     background:https://img.itch.zone/aW1nLzIzOTg5MjMucG5n/original/GYqcmu.png
     building cost increase:110%
     building cost refund:80%
-    spritesheet:icon, 32 by 32, url.jpg
+    spritesheet:icon, 32 by 32, https://raw.githubusercontent.com/Conan2333-mc/MindustryClicker/main/spritesheet.png
     stylesheet:stuff/bigBlue.css
 
 CSS
@@ -70,3 +70,11 @@ Resources
         name:铜
         desc:铜……？你应该拿它建点东西。
         icon:https://raw.githubusercontent.com/Conan2333-mc/MindustryClicker/main/copper.png
+
+Buildings
+    *mechanical-drill
+        name:机械钻头
+        desc:最初级的钻头，挖得很慢。
+        on tick:yield 1 Copper
+        cost:10 Copper
+        icon:icon[0,0]
