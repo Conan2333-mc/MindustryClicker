@@ -72,7 +72,7 @@ Resources
         icon:https://raw.githubusercontent.com/Conan2333-mc/MindustryClicker/main/copper.png
 
 Buildings
-    *mechanical-drill
+    *mechanicalDrill
         name:机械钻头
         desc:最初级的钻头，挖得很慢。
         on tick:yield 1 Copper
